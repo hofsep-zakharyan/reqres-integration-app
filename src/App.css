@@ -1,0 +1,30 @@
+html,
+body {
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.display-users {
+  width: 100%;
+}
+
+.user {
+  margin: 10px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+.user-info {
+  text-align: left;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
