@@ -35,7 +35,15 @@ function AboutUs() {
             {
                 users.map((row: IUserDetail, key) => {
                     return (
-                        <UserDetail id={row.id} email={row.email} first_name={row.last_name} last_name={row.last_name} avatar={row.avatar} key={key} />
+                        // This could be done better by passing in the prop instead
+                        <UserDetail
+                            key={key}
+                            id={row.id}
+                            email={row.email}
+                            first_name={row.last_name}
+                            last_name={row.last_name}
+                            avatar={row.avatar}
+                        />
                     )
                 })
             }

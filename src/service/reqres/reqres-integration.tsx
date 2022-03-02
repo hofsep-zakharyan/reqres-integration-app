@@ -23,9 +23,6 @@ export const getUsers = async (pageNumber: number = 1) => {
             return data as IUserList
         })
 
-    // const data = await fetch(`${BASE_URL}/api/users?delay=${delayInSeconds}&page=${pageNumber}`)
-    //     .then(response => response.json);
-
     console.log('outerData', data)
     return data
 }

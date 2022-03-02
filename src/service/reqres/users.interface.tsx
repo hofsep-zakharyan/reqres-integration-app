@@ -1,3 +1,8 @@
+/**
+ * This would be the response of the `/api/users` endpoint
+ * We are getting the correct data to work with showing the 
+ * info of the user, plus extra data for pagination!
+ */
 export interface IUserList {
     page: number;
     per_page: number;

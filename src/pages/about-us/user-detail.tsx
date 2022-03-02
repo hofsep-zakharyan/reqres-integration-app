@@ -1,6 +1,12 @@
 import React from "react"
 import { IUserDetail } from "../../service/reqres/users.interface"
 
+/**
+ * Separating out the user to format the component
+ * 
+ * @param prop The detail of the user per Reqres interface
+ * @returns 
+ */
 function UserDetail(prop: IUserDetail) {
     const {
         email,
